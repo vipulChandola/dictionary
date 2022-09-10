@@ -1,0 +1,12 @@
+.DictionaryParent{
+    width: 40vw;
+    margin: auto;
+border:solid 2px purple;
+  border-top-left-radius: 20px;  
+  border-top-right-radius: 20px; 
+  border-radius: 20px;
+}
+.dark{
+    background-color: black;
+    color:white
+}
