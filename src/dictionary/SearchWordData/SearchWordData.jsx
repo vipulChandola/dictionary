@@ -19,7 +19,7 @@ export default function SearchWordData({ fetchedWord }) {
                 []
               ) : (
                 <div className="wordSynonym">
-                  <span>Synonym :</span>
+                  <span>Synonyms :</span>
                   {`${meanings.synonyms.slice(0, 3)}`}
                 </div>
               )}
@@ -28,7 +28,7 @@ export default function SearchWordData({ fetchedWord }) {
                 []
               ) : (
                 <div className="wordAntonym">
-                  <span>Antonym :</span>
+                  <span>Antonyms :</span>
                   {`${meanings.antonyms.slice(0, 3)}`}
                 </div>
               )}
